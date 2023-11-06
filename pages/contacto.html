@@ -38,7 +38,7 @@
           </nav>
     </header>
 
-    <main class="contacto">
+    <main class="contacto container">
 
         <h1>CONTACTANOS</h1>
 
@@ -53,20 +53,30 @@
 
             <h3> Dejanos un mensaje </h3>
 
-            <form action="">
+              <section class=""> <!--Formulario -->
 
-                <div class="autocompletar">
-                    <label for="">Nombre</label>
-                    <input type="text" name="" id="">
+                <!--Primera parte del formulario--> 
+                <div class="row mb-3">
+                  <div class="form-floating mb-3 col-6">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Apellido y Nombre</label>
+                  </div>
+                  <div class="form-floating mb-3 col-6">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Numero de Telefono</label>
+                  </div>
+                </div>
 
-                    <label for="">Apellido</label>
-                    <input type="text" name="" id="">
-
-                    <label for="">Correo Electronico</label>
-                    <input type="email" name="" id="">
-
-                    <label for="">Numero de Telefono</label>
-                    <input type="number" name="" id="">
+                <!--Segunda parte del formulario-->
+                <div class="row">
+                  <div class="form-floating mb-3 col-6">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Correo Electronico</label>
+                  </div>
+                  <div class="form-floating mb-3 col-6">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Password</label>
+                  </div>
                 </div>
 
                 <p> Contanos que estas buscando, asi podemos contactarte con un asesor: </p>
@@ -76,7 +86,7 @@
 
                     <input class="button" type="button" value="Enviar">
                 </div>
-
+              </section>
             </form>
 
         </section>
