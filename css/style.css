@@ -97,6 +97,13 @@ header {
     margin: 20px;
 }
 
+/* Modificacion de fuente del inicio*/ 
+
+.font-size-index{
+    font-family: "Rubik", Sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+}
 
 /*Productos del Inicio*/
 .inicioproductos{
@@ -214,36 +221,11 @@ header {
 }
 
 .historia img{
-    width: 500px;
-    padding: 20px;
+    width: 100%;
 }
 
-.historia-one{
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-
-}
-
-.historia-two{
-    padding: 20px;
-    display: flex;
-    flex-direction: row-reverse;
-
-}
-
-.historia-three{
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-
-}
-
-.historia-four{
-    padding: 20px;
-    display: flex;
-    flex-direction: row-reverse;
-
+.bg-mision{
+    background-color: skyblue;
 }
 
 .Actualidad{
@@ -325,6 +307,9 @@ header {
     width: 60px;
 }
 
+.bg-contacto{
+    background-color: skyblue;
+}
 /* REDES SOCIALES */
 .menu-container{
     display: flex;
