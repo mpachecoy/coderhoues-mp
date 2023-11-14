@@ -6,14 +6,17 @@
         <title>LA CALANDRIA</title>
         
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        
+ 
+        <!--css viejo; etapa tansicion -->
         <link rel="stylesheet" href="./css/style.css">
-    
+   
+        <!--css vincula a sass-->
+        <link rel="stylesheet" href="./css/estilos.css">
     </head>
 
 <body class="container-fluid">
     <header>
-        <nav class="navbar sticky-top navbar-expand-lg col-12">
+        <nav class="navbar navbar-expand-lg col-12">
             <div class="container-fluid col-12">
               <a class="navbar-brand" href="./index.html"><img class="imagen-logo"src="./medios/avatar 2-01 sin fondo.png" alt=""></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,6 +26,9 @@
                 <ul class="navbar-nav">
                   <li class="nav-item">
                     <a class="nav-link" href="https://www.lacalandriamuebles.com/">TIENDA -</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/novedades.html">Novedades -</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="./pages/historia.html">Historia -</a>
@@ -42,9 +48,9 @@
     <main class="container-fluid">
         <h1 class="titulo">LA CALANDRIA - MUEBLES Y ABERTURAS</h1>
 
-          <h3 class="text-center mb-5">SOMOS UNA EMPRESA CHAQUEÑA QUE SE DEDICA A LA FABRICACION DE MUEBLES DE PINO</h3>
+          <h2 class="text-center mb-5">SOMOS UNA EMPRESA CHAQUEÑA QUE SE DEDICA A LA FABRICACION DE MUEBLES DE PINO</h2>
 
-          <h3 class="text-wrap mb-5">Trabajamos con el objetivo claro de cuidar la calidad de nuestros productos buscando así diferenciarnos, brindando una mejor calidad superior a un precio mas bajo.</h3>
+          <h2 class="text-wrap mb-5">Trabajamos con el objetivo claro de cuidar la calidad de nuestros productos buscando así diferenciarnos, brindando una mejor calidad superior a un precio mas bajo.</h2>
                 
             <div class="row mb-5">
               <img class="col-12 col-lg-4" src="./medios/Quienes somos.jpeg" alt="">    
@@ -69,9 +75,9 @@
 
         <div class="container-fluid font-index row mb-5">
           <div style="border: solid"  class="font-size-index col-12 col-lg-4 fst-italic">
-            <p>
+            <h2>
               Sofás, mesas, sillas, camas & muebles de diseño en tú casa
-            </p>
+            </h2>
           </div>
           <div style="border: solid"  class="col-12 col-lg-4">
             <p>
@@ -103,26 +109,26 @@
 
         </section>
 
-        <Section class="container-fluid row mb-5 justify-content-around">
+        <section class="videos container-fluid mb-5 justify-content-around">
 
-          <div class="col-12 col-sm-12 col-lg-4 ">
-            <video autoplay muted playsinline class="videos-one" src="./medios/09 reel coobranding-2.mp4"></video>
-          </div>
+            <div class="video-uno container-fluid">
+              <video autoplay muted playsinline class="videos-one" src="./medios/09 reel coobranding-2.mp4"></video>
+            </div>
 
-          <div class="imagenes-one col-12 col-sm-12 col-lg-4 d-flex flex-column ">
-            <img class="img-fluid mb-3" src="./medios/Producto Combo comedor.jpeg" alt="">
-            <img class="img-fluid mb-3" src="./medios/comoda cessar.png" alt="">
-          </div>
+            <div class="container-fluid imagenes-one">
+              <img class="img-fluid mb-3" src="./medios/Producto Combo comedor.jpeg" alt="">
+              <img class="img-fluid mb-3" src="./medios/comoda cessar.png" alt="">
+            </div>
 
-          <div class="col-12 col-sm-12 col-lg-4 ">
-            <video autoplay muted playsinline class="videos-one justify-content-center" src="./medios/05 para feed.mp4"></video>
-          </div>
-    
-        </Section>
+            <div class="video-dos container-fluid">
+              <video video-fluid autoplay muted playsinline class="videos-one justify-content-center" src="./medios/05 para feed.mp4"></video>
+            </div>
+      
+        </section>
 
         <section class="bg-contacto container-fluid">
 
-          <h3 class=" d-flex justify-content-center">CONTACTANOS</h3>
+          <h2 class=" d-flex justify-content-center">CONTACTANOS</h2>
 
           <p class="d-flex justify-content-center">
             Enterate primero de las últimas novedades!! 
@@ -134,21 +140,22 @@
               <h3> Dejanos un mensaje </h3>
             </div>
 
+            <form class="row d-flex flex-column col-12 col-sm-6" action="">
 
-              <div class="row d-flex flex-column col-12 col-sm-6">
-                  <div class="form-floating mb-3">
-                      <input type="email" class="form-control" id="floatingInput" placeholder="">
-                      <label for="floatingInput">Apellido y Nombre</label>
-                  </div>
-                  <div class="form-floating mb-3">
-                      <input type="password" class="form-control" id="floatingPassword" placeholder="">
-                      <label for="floatingPassword">Telefono</label>
-                  </div>
-                  <div class="form-floating mb-3">
-                      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                      <label for="floatingInput">Correo Electronico</label>
-                  </div>
-              </div>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="">
+                    <label for="floatingInput">Apellido y Nombre</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="">
+                    <label for="floatingPassword">Telefono</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Correo Electronico</label>
+                </div>
+
+            </form>
 
               <div class="col-12 col-sm-6">               
                   <div class="textarea">
@@ -179,10 +186,10 @@
                 
           <div class="promo-imagenes row">
 
-            <a class="col-10 col-sm-6 col-lg-3" href="https://api.whatsapp.com/send?phone=+543624017930&text=Hola%21+Estoy+interesado+en+esta%20promo!.."><img src="./medios/Producto - Promociones.jpeg" alt=""></a>
-            <a class="col-10 col-sm-6 col-lg-3" href="https://api.whatsapp.com/send?phone=+543624017930&text=Hola%21+Estoy+interesado+en+esta%20promo!.."><img src="./medios/Producto Promociones.jpeg" alt=""></a>
-            <a class="col-10 col-sm-6 col-lg-3" href="https://api.whatsapp.com/send?phone=+543624017930&text=Hola%21+Estoy+interesado+en+esta%20promo!.."><img src="./medios/como desayunador.jpeg" alt=""></a>
-            <a class="col-10 col-sm-6 col-lg-3" href="https://api.whatsapp.com/send?phone=+543624017930&text=Hola%21+Estoy+interesado+en+esta%20promo!.."><img src="./medios/Como mesas.jpeg" alt=""></a>
+            <a class="col-10 col-sm-6 col-lg-3" href="https://api.whatsapp.com/send?phone=+543624017930&text=Hola%21+Estoy+interesado+en+esta%20promo!.."><img class="img-fluid" src="./medios/Producto - Promociones.jpeg" alt=""></a>
+            <a class="col-10 col-sm-6 col-lg-3" href="https://api.whatsapp.com/send?phone=+543624017930&text=Hola%21+Estoy+interesado+en+esta%20promo!.."><img class="img-fluid" src="./medios/Producto Promociones.jpeg" alt=""></a>
+            <a class="col-10 col-sm-6 col-lg-3" href="https://api.whatsapp.com/send?phone=+543624017930&text=Hola%21+Estoy+interesado+en+esta%20promo!.."><img class="img-fluid" src="./medios/como desayunador.jpeg" alt=""></a>
+            <a class="col-10 col-sm-6 col-lg-3" href="https://api.whatsapp.com/send?phone=+543624017930&text=Hola%21+Estoy+interesado+en+esta%20promo!.."><img class="img-fluid" src="./medios/Como mesas.jpeg" alt=""></a>
           </div>     
 
           <h2>MEDIOS DE PAGOS</h2>
@@ -209,7 +216,8 @@
         </div>
 
    </footer>
-
+ 
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 
 </html>
