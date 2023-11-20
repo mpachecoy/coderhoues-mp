@@ -45,8 +45,8 @@ body{
 }
 
 
-/* Header elementos*/
-header {
+/* Header Elementos*/
+/* header {
     background-color: skyblue;
     width: 100%;
 }
@@ -54,11 +54,11 @@ header {
 .imagen-logo{
     width: 75px;
     border: 2px solid black;
-}
+} */
 
 
-/* Body */
-.titulo {
+/* MAIN */
+/* .titulo {
     padding: 20px;
     text-align: center;
     text-shadow: 0px 4px 13px rgba(0,0,0,0.5); 
@@ -67,17 +67,17 @@ header {
 .presentacion{
     display: flex;
     flex-direction: row;
-}
+} */
 
 
-.Quienes img{
+/* .Quienes img{
     width: 400px;
     height: 300px;
 }
 
 .Quienes p{
    text-align: justify;
-}
+} */
 
 .Comienzos{
     display: flex;
@@ -97,16 +97,9 @@ header {
     margin: 20px;
 }
 
-/* Modificacion de fuente del inicio*/ 
-
-.font-size-index{
-    font-family: "Rubik", Sans-serif;
-    font-size: 50px;
-    font-weight: 400;
-}
 
 /*Productos del Inicio*/
-.inicioproductos{
+/* .inicioproductos{
     background-image: url(../medios/fabrica-panoramica.jpg);
     background-position: center;
     display: flex;
@@ -134,10 +127,11 @@ header {
 .inicioproductos a{
     color: white;
     text-decoration: none;
-}
+} */
 
-/*Videos e imagenes institucionales*/
-.videos{
+/* Videos e imagenes institucionales */
+
+/* .videos{
     display: flex;
     flex-direction: row;
 }
@@ -165,10 +159,10 @@ header {
         display: flex;
         flex-direction: column;   
     }
-}
+} */
 
 /*Inicio - Promociones vigentes*/
-.Promociones{
+/* .Promociones{
     padding: 20px;
 }
 
@@ -191,11 +185,11 @@ header {
 .pago-imagenes{
     display: flex;
     justify-content: center;
-}
+} */
 
 
 /*Footer - Iconos contactos*/
-
+/* 
 .footer-contacto img{
     width: 80px;
     height: 80px;
@@ -213,7 +207,7 @@ header {
     bottom: 10px;
     right: 10px;
 }
-
+ */
 
 
 /* Pagina - HISTORIA */
@@ -246,7 +240,7 @@ header {
     background-color: skyblue;
 }
 
-.Actualidad{
+/* .Actualidad{
     display: flex;
     margin: 10px;
 }
@@ -260,10 +254,10 @@ header {
 .Actualidad p{
     text-align: justify;
     margin: 20px;
-}
+} */
 
 /*  CONTACTO */
-.contacto{
+/* .contacto{
     display: flex;
     flex-direction: column;
     justify-content: row;
@@ -327,8 +321,10 @@ header {
 
 .bg-contacto{
     background-color: skyblue;
-}
+} */
+
 /* REDES SOCIALES */
+/* quitar una vez agregado los partials */
 .menu-container{
     display: flex;
     flex-direction: row;
@@ -452,7 +448,7 @@ header {
 }
 
 /*Bootstrap */
-.navbar a{
+/* .navbar a{
     font-size: 30px;
     text-shadow: 0px 4px 13px rgba(0,0,0,0.5); 
-}
+} */
