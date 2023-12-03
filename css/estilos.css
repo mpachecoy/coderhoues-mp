@@ -3,7 +3,6 @@
 /*font-family: 'Maven Pro', sans-serif;*/
 /* Variables */
 /* el asterisco es el selector universal */
-
 * {
   padding: 0;
   margin: 0;
@@ -177,47 +176,84 @@ header .navbar a {
 }
 
 /* Seccion de Promociones */
-.Promociones {
+.promociones {
   padding: 20px;
 }
-.Promociones h2 {
+.promociones h2 {
   text-align: center;
   padding: 20px;
 }
-.Promociones .promo-imagenes {
+.promociones .promo-imagenes {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
-.Promociones .promo-imagenes img {
+.promociones .promo-imagenes img {
   padding: 10px;
   width: 300px;
 }
-.Promociones .pago-imagenes {
+.promociones .pago-imagenes {
   display: flex;
   justify-content: center;
 }
-.Promociones .pago-imagenes img {
+.promociones .pago-imagenes img {
   padding: 10px;
   width: 300px;
 }
 
 /*Footer - Iconos contactos*/
-.footer-contacto img {
-  width: 80px;
-  height: 80px;
-}
-
-.footer-contacto {
-  padding: 20px;
+.footer {
+  background-color: skyblue;
   display: flex;
   flex-direction: row;
 }
 
-.Whatsapp {
+.icono-whatsapp {
+  background-color: green;
+  border: 2px solid black;
   position: fixed;
-  bottom: 10px;
-  right: 10px;
+  z-index: 999;
+  border-radius: 60%;
+  bottom: 20px;
+  right: 20px;
+  padding: 1px;
+  transition: ease 0.3s;
+  animation: sombra 1.2s infinite;
+}
+.icono-whatsapp .whatsapp {
+  width: 70px;
+  transition: ease 1s;
+}
+
+.icono-whatsapp:hover {
+  transform: scale(1.1);
+  transition: ease 0.3s;
+}
+
+@keyframes sombra {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+  }
+  100% {
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+  }
+}
+.info-footer {
+  display: flex;
+  flex-direction: row;
+}
+.info-footer .descripcion-footer {
+  margin: 10px;
+}
+.info-footer .facebook {
+  width: 50px;
+  margin: 10px;
+  border: 2px solid black;
+}
+.info-footer .instagram {
+  width: 50px;
+  margin: 10px;
+  border: 2px solid black;
 }
 
 /* Pagina Historia */
@@ -340,24 +376,5 @@ header .navbar a {
   flex-direction: row;
   justify-content: space-around;
 }
-
-/* Aniomaciones */ 
-
-@keyframes animacion {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-.animacion {
-  animation-name: animacion;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-}
-
-
 
 /*# sourceMappingURL=estilos.css.map */
